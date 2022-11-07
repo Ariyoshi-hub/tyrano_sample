@@ -1,45 +1,50 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="ポカモン"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「ポカモン」[l][r]
 
-メロスは激怒した。[l][r]
+サトルは草むらを進んでいる...[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+！！[l][r]
 
-(中略)[l][r]
+野生のぺカチュウが現れた！　[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+どうする？　[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_ball] →モンスターボールを投げる [endlink][r]
+[link target=*tag_fight] →戦う [endlink][r]
 [s]
 
-*tag_sleep
+*tag_ball
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=ball.jfif time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+ぺカチュウは捕まらなかった！[l][r]
+
+ぺカチュウの攻撃！[l][r]
+
+効果は抜群だ！サトルは気を失った...[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_fight
 
-[bg storage=run.jpg time=500]
+[bg storage=fight.jfif time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+行け！キャラドス！[l][r]
+
+キャラドスの攻撃！[l][r]
+
+効果は抜群だ！ぺカチュウを倒した！[r]
 
 【 GOOD END 】[l][cm]
 
